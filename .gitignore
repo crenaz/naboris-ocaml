@@ -30,3 +30,6 @@ _opam/
 _esy/
 esy.lock/
 node_modules/
+
+# Editor settings
+.vscode/
