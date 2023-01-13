@@ -25,7 +25,20 @@ npm ERR!     /home/crenaz/.npm/_logs/2023-01-03T04_08_41_530Z-debug-0.log
 
 After this the project was able to run. 
 
+...
 
+
+When the author said this:
+"First Build
+
+Take a look at the project, pay particular attention to package.json and the scripts available."
+
+Was he referring to the esy.json file?
+ (because the package.json file gets created later)
+
+Also, my webpack error: 
+"Module not found: Error: Can't resolve '/home/crenaz/projects/ONLINE/GITHUB/naboris-ocaml/lib/js/clientSrc/Main.bs.js' in '/home/crenaz/projects/ONLINE/GITHUB/naboris-ocaml'"
+was resolved by changing main.bs.js to main.js in the webpack conf
 
 *original README below*
 
