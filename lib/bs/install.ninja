@@ -1,0 +1,14 @@
+rescript = 1
+rule cp
+  command = cp $i $out
+rule touch
+ command = touch $out
+o Main.cmi : cp ../bs/clientSrc/Main.cmi
+o Main.cmj : cp ../bs/clientSrc/Main.cmj
+o Main.cmt : cp ../bs/clientSrc/Main.cmt
+o Main.res : cp ../../clientSrc/Main.res
+o DataList.cmi : cp ../bs/clientSrc/components/DataList.cmi
+o DataList.cmj : cp ../bs/clientSrc/components/DataList.cmj
+o DataList.cmt : cp ../bs/clientSrc/components/DataList.cmt
+o DataList.re : cp ../../clientSrc/components/DataList.re
+build install.stamp : touch Main.cmi Main.cmj DataList.cmi DataList.cmj 

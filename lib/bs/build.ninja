@@ -1,0 +1,17 @@
+rescript = 1
+g_finger := /home/crenaz/projects/ONLINE/GITHUB/naboris-ocaml/node_modules/@rescript/react/lib/ocaml/install.stamp
+rule astj
+  command = /home/crenaz/projects/ONLINE/GITHUB/naboris-ocaml/node_modules/bs-platform/linux/bsc.exe  -warn-error +101 -bs-v 9.0.2 -bs-jsx 3  -absname -bs-ast -o $out $i
+o clientSrc/Main.ast : astj ../../clientSrc/Main.res
+rule deps
+  command = /home/crenaz/projects/ONLINE/GITHUB/naboris-ocaml/node_modules/bs-platform/linux/bsb_helper.exe -hash 7b3cefae4ab1e17ba08066a4e7469367 $in
+  restat = 1
+o clientSrc/Main.d : deps clientSrc/Main.ast
+rule mij
+  command = /home/crenaz/projects/ONLINE/GITHUB/naboris-ocaml/node_modules/bs-platform/linux/bsc.exe -I clientSrc/components -I clientSrc -I /home/crenaz/projects/ONLINE/GITHUB/naboris-ocaml/node_modules/@rescript/react/lib/ocaml   -warn-error +101 -bs-package-name naboris-ocaml -bs-package-output commonjs:lib/js/$in_d:.bs.js -bs-v $g_finger $i
+  dyndep = 1
+  restat = 1
+o clientSrc/Main.cmj clientSrc/Main.cmi ../js/clientSrc/Main.bs.js : mij clientSrc/Main.ast
+o clientSrc/components/DataList.ast : astj ../../clientSrc/components/DataList.re
+o clientSrc/components/DataList.d : deps clientSrc/components/DataList.ast
+o clientSrc/components/DataList.cmj clientSrc/components/DataList.cmi ../js/clientSrc/components/DataList.bs.js : mij clientSrc/components/DataList.ast

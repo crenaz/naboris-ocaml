@@ -1,0 +1,1 @@
+{ "dirs" : [ "clientSrc" , "clientSrc/components" ] , "pkgs" : [ [ "@rescript/react" , "/home/crenaz/projects/ONLINE/GITHUB/naboris-ocaml/node_modules/@rescript/react" ] ] , "generated" : [] }
