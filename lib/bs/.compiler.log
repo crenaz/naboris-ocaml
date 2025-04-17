@@ -1,26 +1,2 @@
-#Start(1672726046464)
-
-  Syntax error!
-  /home/crenaz/projects/ONLINE/GITHUB/naboris-ocaml/clientSrc/Main.res:2:8-3:5
-  
-  1 │ Js.log("Hello, ReScript")
-  2 │ let _ =
-  3 │   let props = DataList.makeProps () in
-  4 │   ReactDOMRe.renderToElementWithId
-  5 │     (React.createElement DataList.make props)
-  
-  This let-binding misses an expression
-
-
-  Syntax error!
-  /home/crenaz/projects/ONLINE/GITHUB/naboris-ocaml/clientSrc/Main.res:3:37-38
-  
-  1 │ Js.log("Hello, ReScript")
-  2 │ let _ =
-  3 │   let props = DataList.makeProps () in
-  4 │   ReactDOMRe.renderToElementWithId
-  5 │     (React.createElement DataList.make props)
-  
-  `in` is a reserved keyword. Keywords need to be escaped: \"in"
-
-#Done(1672726046487)
+#Start(1744850181235)
+#Done(1744850181235)

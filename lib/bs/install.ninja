@@ -10,5 +10,5 @@ o Main.res : cp ../../clientSrc/Main.res
 o DataList.cmi : cp ../bs/clientSrc/components/DataList.cmi
 o DataList.cmj : cp ../bs/clientSrc/components/DataList.cmj
 o DataList.cmt : cp ../bs/clientSrc/components/DataList.cmt
-o DataList.re : cp ../../clientSrc/components/DataList.re
+o DataList.res : cp ../../clientSrc/components/DataList.res
 build install.stamp : touch Main.cmi Main.cmj DataList.cmi DataList.cmj 
