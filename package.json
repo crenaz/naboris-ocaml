@@ -1,6 +1,6 @@
 {
   "name": "naboris-ocaml",
-  "version": "1.0.0",
+  "version": "1.3S.0",
   "scripts": {
     "clean": "rescript clean",
     "build-client": "rescript build",
@@ -10,9 +10,14 @@
     "build-server-main": "esy b dune build ./src/App.exe",
     "build-server-test": "echo \"Tests not yet implemented\"",
     "build-server": "npm run build-server-main && npm run build-server-test",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "test": "jest",
+    "security-check": "npm audit",
+    "build-all": "npm run build-client && npm run webpack && npm run build-server",
+    "dev": "npm run build-all && npm run start"
   },
   "devDependencies": {
+    "@glennsl/bs-jest": "^0.7.0",
     "rescript": "^10.1.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"

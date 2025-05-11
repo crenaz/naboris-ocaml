@@ -1,19 +1,20 @@
 {
   "name": "naboris-ocaml",
-  "version": "1.0.0",
-  "jsx": { "version": 4, "mode": "classic" },
-  "bs-dependencies": ["@rescript/react"],
-  "sources": {
-    "dir": "clientSrc",
-    "subdirs": true
-  },
-  "package-specs": {
-    "module": "commonjs",
-    "in-source": false
-  },
-  "suffix": ".bs.js",
-  "warnings": {
-    "error": "+101"
-  },
-  "refmt": 3
+  "version": "0.1.0",
+  "bs-dependencies": ["@rescript/react", "@glennsl/bs-jest"],
+  "bs-dev-dependencies": ["@glennsl/bs-jest"],
+  "sources": [
+    {
+      "dir": "clientSrc",
+      "subdirs": true
+    },
+    {
+      "dir": "__tests__",
+      "type": "dev"
+    }
+  ],
+  "jsx": {
+    "version": 4,
+    "mode": "classic"
+  }
 }

@@ -1,0 +1,8 @@
+# Build everything
+npm run build-all
+
+# Start the server
+npm run start
+
+# Install @glennsl/bs-jest
+npm install --save-dev @glennsl/bs-jest
