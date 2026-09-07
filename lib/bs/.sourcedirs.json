@@ -1,1 +1,1 @@
-{ "dirs" : [ "clientSrc" , "clientSrc/components" ] , "pkgs" : [ [ "@rescript/react" , "/home/crenaz/projects/ONLINE/GITHUB/naboris-ocaml/node_modules/@rescript/react" ] ] , "generated" : [] }
+{ "dirs" : [ "__tests__" , "clientSrc" , "clientSrc/components" ] , "pkgs" : [ [ "@glennsl/bs-jest" , "/home/crenaz/projects/ONLINE/GITHUB/naboris-ocaml/node_modules/@glennsl/bs-jest" ] , [ "@rescript/react" , "/home/crenaz/projects/ONLINE/GITHUB/naboris-ocaml/node_modules/@rescript/react" ] ] , "generated" : [] }

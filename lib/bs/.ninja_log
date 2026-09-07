@@ -1,11 +1,11 @@
 # ninja log v6
-0	10	1746994965313493807	clientSrc/Main.ast	e7b95d09e8b8a81f
-1	12	1746994965313493807	clientSrc/components/DataList.ast	50cffeeef33f07a6
-10	13	1746994965313493807	clientSrc/Main.d	2a678e47f49ee266
-12	14	1746994965313493807	clientSrc/components/DataList.d	64bcf35ce299c97c
-15	47	1746994965353493804	clientSrc/components/DataList.cmj	e5a48e3e4818bf85
-15	47	1746994965353493804	clientSrc/components/DataList.cmi	e5a48e3e4818bf85
-15	47	1746994965353493804	../js/clientSrc/components/DataList.bs.js	e5a48e3e4818bf85
-48	90	1746994965383493800	clientSrc/Main.cmj	24a62775eed6d42f
-48	90	1746994965383493800	clientSrc/Main.cmi	24a62775eed6d42f
-48	90	1746994965383493800	../js/clientSrc/Main.bs.js	24a62775eed6d42f
+2	16	1788747707846094251	clientSrc/components/DataList.ast	93054f9724e76a1b
+1	17	1788747707846094251	clientSrc/Main.ast	91e409a7c043a311
+16	21	1788747707854094248	clientSrc/components/DataList.d	64bcf35ce299c97c
+17	22	1788747707854094248	clientSrc/Main.d	2a678e47f49ee266
+21	41	1788747707874094239	clientSrc/components/DataList.cmj	bf658fcd6d52607c
+21	41	1788747707874094239	clientSrc/components/DataList.cmi	bf658fcd6d52607c
+21	41	1788747707874094239	../js/clientSrc/components/DataList.bs.js	bf658fcd6d52607c
+42	63	1788747707890094233	clientSrc/Main.cmj	b0ea9d6aab8b671d
+42	63	1788747707890094233	clientSrc/Main.cmi	b0ea9d6aab8b671d
+42	63	1788747707890094233	../js/clientSrc/Main.bs.js	b0ea9d6aab8b671d

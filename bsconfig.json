@@ -13,6 +13,11 @@
       "type": "dev"
     }
   ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": false
+  },
+  "suffix": ".bs.js",
   "jsx": {
     "version": 4,
     "mode": "classic"
